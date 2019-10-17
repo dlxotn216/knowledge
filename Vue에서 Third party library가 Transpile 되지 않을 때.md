@@ -144,6 +144,64 @@ React는 어떨까 생각이 들기도 하고 이번에 처리한 내용, 과거
 
 
 
+## Modern build
+Babel 사용 시 ES6 이후의 최신 기능을 사용할 수 있지만 Transpile, Polyfill이 반드시 필요하다  
+하지만 이러한 것들은 원래 코드보다 더 클 것이고 브라우저가 구문분석하기에 오버헤드가 될 수 있다.  
+
+하위 브라우저 커버를 위해서 최신 문법으로 작서한 코드를 이전의 문법으로 맞게 변환한 것을 무작정 실행하기에는  
+최신 브라우저들이 최신 문법에 맞춰 최적화 된 것들이 너무 아쉽다.   
+
+Vue CLI에선 이러한 문제를 처리하기 위해 Modern mode를 지원한다.  
+
+최신 브라우저를 지원하는 번들과 그렇지 않은 번들을 나누어 배포하고 실행하는 것.  
+관련자료 <a href="https://cli.vuejs.org/guide/browser-compatibility.html#modern-mode">Vue CLI Modern mode</a>  
+
+번들링 된 결과는 아래와 같다.  
+자세히 보면 -legacy postfix가 붙은 파일들이 있는데 이것들이 하위 브라우저에 맞게 Transpile 된 번들이다.
+```html
+<!DOCTYPE html>
+<html lang=en>
+<head>
+    <meta charset=utf-8>
+    <meta http-equiv=X-UA-Compatible content="IE=edge">
+    <meta name=viewport content="width=device-width,initial-scale=1">
+    <link rel=icon href=/appicon.png>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900|Material+Icons" rel=stylesheet>
+    <script src="https://cdn.polyfill.io/v2/polyfill.js?features=String.prototype.includes,Array.prototype.find,Promise,Array.from"></script>
+    <link rel=stylesheet
+          href="https://fonts.googleapis.com/css?family=Noto+Sans+JP:400,500,700|Noto+Sans+KR:400,500,700&subset=japanese,korean">
+    <link rel=stylesheet href=https://unpkg.com/element-ui/lib/theme-chalk/index.css>
+    <title>cubeSafetyAPP</title>
+    <link href=/js/pdfjsWorker.cbe1949e.js rel=prefetch>
+    <link href=/css/app.34982bed.css rel=preload as=style>
+    <link href=/css/chunk-vendors.a30f3840.css rel=preload as=style>
+    <link href=/js/app.bad75dc2.js rel=modulepreload as=script>
+    <link href=/js/chunk-vendors.97b51f02.js rel=modulepreload as=script>
+    <link href=/css/chunk-vendors.a30f3840.css rel=stylesheet>
+    <link href=/css/app.34982bed.css rel=stylesheet>
+</head>
+<body>
+<noscript><strong>We're sorry but cubesafetyapp-front doesn't work properly without JavaScript enabled. Please enable it
+    to continue.</strong></noscript>
+<div id=app></div>
+<script type=module src=/js/chunk-vendors.97b51f02.js></script>
+<script type=module src=/js/app.bad75dc2.js></script>
+<script>!function () {
+    var e = document, t = e.createElement("script");
+    if (!("noModule" in t) && "onbeforeload" in t) {
+        var n = !1;
+        e.addEventListener("beforeload", function (e) {
+            if (e.target === t) n = !0; else if (!e.target.hasAttribute("nomodule") || !n)return;
+            e.preventDefault()
+        }, !0), t.type = "module", t.src = ".", e.head.appendChild(t), t.remove()
+    }
+}();</script>
+<script src=/js/chunk-vendors-legacy.97b51f02.js nomodule></script>
+<script src=/js/app-legacy.9865cd4b.js nomodule></script>
+</body>
+</html>
+```
+
 
 
 

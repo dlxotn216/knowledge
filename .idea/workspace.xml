@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="da446575-135f-44f0-9627-77bafd9b8c88" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Vue에서 Third party library가 Transpile 되지 않을 때.md" afterPath="$PROJECT_DIR$/Vue에서 Third party library가 Transpile 되지 않을 때.md" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,12 +15,12 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="15">
-                <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+              <first_editor relative-caret-position="0">
+                <caret line="0" column="2" lean-forward="false" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -28,21 +28,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Vue에서 Third party library가 Transpile 되지 않을 때.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Vue에서 Third party library가 Transpile 되지 않을 때.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Vue에서 Third party library가 Transpile 되지 않을 때.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="464">
-                <caret line="142" column="54" lean-forward="false" selection-start-line="142" selection-start-column="54" selection-end-line="142" selection-end-column="54" />
+              <first_editor relative-caret-position="135">
+                <caret line="167" column="37" lean-forward="true" selection-start-line="167" selection-start-column="37" selection-end-line="167" selection-end-column="37" />
                 <folding>
-                  <marker date="1571291737071" expanded="true" signature="2312:2386" ph="{&quot;outputDir&quot;: 'www'...}" />
-                  <marker date="1571291737071" expanded="true" signature="2341:2362" ph="[...]" />
-                  <marker date="1571291737071" expanded="true" signature="3305:3521" ph="{&quot;outputDir&quot;: 'www'...}" />
-                  <marker date="1571291737071" expanded="true" signature="3334:3497" ph="[...]" />
-                  <marker date="1571291737071" expanded="true" signature="4601:4677" ph="{...}" />
-                  <marker date="1571291737071" expanded="true" signature="4616:4675" ph="[...]" />
-                  <marker date="1571291737071" expanded="true" signature="4626:4669" ph="[...]" />
-                  <marker date="1571291737071" expanded="true" signature="4726:4784" ph="{...}" />
+                  <marker date="1571293198706" expanded="true" signature="2312:2386" ph="{&quot;outputDir&quot;: 'www'...}" />
+                  <marker date="1571293198706" expanded="true" signature="2341:2362" ph="[...]" />
+                  <marker date="1571293198706" expanded="true" signature="3305:3521" ph="{&quot;outputDir&quot;: 'www'...}" />
+                  <marker date="1571293198706" expanded="true" signature="3334:3497" ph="[...]" />
+                  <marker date="1571293198706" expanded="true" signature="4601:4677" ph="{...}" />
+                  <marker date="1571293198706" expanded="true" signature="4616:4675" ph="[...]" />
+                  <marker date="1571293198706" expanded="true" signature="4626:4669" ph="[...]" />
+                  <marker date="1571293198706" expanded="true" signature="4726:4784" ph="{...}" />
+                  <marker date="1571293198706" expanded="true" signature="5855:7914" ph="..." />
+                  <marker date="1571293198706" expanded="true" signature="5862:7034" ph="..." />
+                  <marker date="1571293198706" expanded="true" signature="6338:6468" ph="..." />
+                  <marker date="1571293198706" expanded="true" signature="7041:7906" ph="..." />
+                  <marker date="1571293198706" expanded="true" signature="7052:7199" ph="..." />
+                  <marker date="1571293198706" expanded="true" signature="7060:7188" ph="..." />
+                  <marker date="1571293198706" expanded="true" signature="7345:7772" ph="..." />
+                  <marker date="1571293198706" expanded="true" signature="7359:7761" ph="{...}" />
+                  <marker date="1571293198706" expanded="true" signature="7465:7759" ph="{...}" />
+                  <marker date="1571293198706" expanded="true" signature="7541:7681" ph="{...}" />
                 </folding>
               </first_editor>
               <second_editor />
@@ -84,8 +94,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Vue에서 Third party library가 Transpile 되지 않을 때.md" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/Vue에서 Third party library가 Transpile 되지 않을 때.md" />
       </list>
     </option>
   </component>
@@ -260,7 +270,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1571281553707</updated>
-      <workItem from="1571281555210" duration="6202000" />
+      <workItem from="1571281555210" duration="7358000" />
     </task>
     <task id="LOCAL-00001" summary="Vue에서 Third party library가 Transpile 되지 않을 때">
       <created>1571291758767</created>
@@ -269,11 +279,18 @@
       <option name="project" value="LOCAL" />
       <updated>1571291758767</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Update index">
+      <created>1571291828675</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1571291828675</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6202000" />
+    <option name="totallyTimeSpent" value="7358000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1920" y="-201" width="1920" height="1057" extended-state="6" />
@@ -317,7 +334,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Vue에서 Third party library가 Transpile 되지 않을 때" />
-    <option name="LAST_COMMIT_MESSAGE" value="Vue에서 Third party library가 Transpile 되지 않을 때" />
+    <MESSAGE value="Update index" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update index" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -338,32 +356,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Vue에서 Third party library가 Transpile 되지 않을 때.md">
+    <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="464">
-            <caret line="142" column="54" lean-forward="false" selection-start-line="142" selection-start-column="54" selection-end-line="142" selection-end-column="54" />
-            <folding>
-              <marker date="1571291737071" expanded="true" signature="2312:2386" ph="{&quot;outputDir&quot;: 'www'...}" />
-              <marker date="1571291737071" expanded="true" signature="2341:2362" ph="[...]" />
-              <marker date="1571291737071" expanded="true" signature="3305:3521" ph="{&quot;outputDir&quot;: 'www'...}" />
-              <marker date="1571291737071" expanded="true" signature="3334:3497" ph="[...]" />
-              <marker date="1571291737071" expanded="true" signature="4601:4677" ph="{...}" />
-              <marker date="1571291737071" expanded="true" signature="4616:4675" ph="[...]" />
-              <marker date="1571291737071" expanded="true" signature="4626:4669" ph="[...]" />
-              <marker date="1571291737071" expanded="true" signature="4726:4784" ph="{...}" />
-            </folding>
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="2" lean-forward="false" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
+            <folding />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
+    <entry file="file://$PROJECT_DIR$/Vue에서 Third party library가 Transpile 되지 않을 때.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="15">
-            <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-            <folding />
+          <first_editor relative-caret-position="135">
+            <caret line="167" column="37" lean-forward="true" selection-start-line="167" selection-start-column="37" selection-end-line="167" selection-end-column="37" />
+            <folding>
+              <marker date="1571293198706" expanded="true" signature="2312:2386" ph="{&quot;outputDir&quot;: 'www'...}" />
+              <marker date="1571293198706" expanded="true" signature="2341:2362" ph="[...]" />
+              <marker date="1571293198706" expanded="true" signature="3305:3521" ph="{&quot;outputDir&quot;: 'www'...}" />
+              <marker date="1571293198706" expanded="true" signature="3334:3497" ph="[...]" />
+              <marker date="1571293198706" expanded="true" signature="4601:4677" ph="{...}" />
+              <marker date="1571293198706" expanded="true" signature="4616:4675" ph="[...]" />
+              <marker date="1571293198706" expanded="true" signature="4626:4669" ph="[...]" />
+              <marker date="1571293198706" expanded="true" signature="4726:4784" ph="{...}" />
+              <marker date="1571293198706" expanded="true" signature="5855:7914" ph="..." />
+              <marker date="1571293198706" expanded="true" signature="5862:7034" ph="..." />
+              <marker date="1571293198706" expanded="true" signature="6338:6468" ph="..." />
+              <marker date="1571293198706" expanded="true" signature="7041:7906" ph="..." />
+              <marker date="1571293198706" expanded="true" signature="7052:7199" ph="..." />
+              <marker date="1571293198706" expanded="true" signature="7060:7188" ph="..." />
+              <marker date="1571293198706" expanded="true" signature="7345:7772" ph="..." />
+              <marker date="1571293198706" expanded="true" signature="7359:7761" ph="{...}" />
+              <marker date="1571293198706" expanded="true" signature="7465:7759" ph="{...}" />
+              <marker date="1571293198706" expanded="true" signature="7541:7681" ph="{...}" />
+            </folding>
           </first_editor>
           <second_editor />
         </state>
