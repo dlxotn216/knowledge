@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="da446575-135f-44f0-9627-77bafd9b8c88" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Vue에서 Third party library가 Transpile 되지 않을 때.md" afterPath="$PROJECT_DIR$/Vue에서 Third party library가 Transpile 되지 않을 때.md" />
+    <list default="true" id="da446575-135f-44f0-9627-77bafd9b8c88" name="Default" comment="Spring">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spring Data Mongodb with docker mongodb instance.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,7 +14,7 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
@@ -28,12 +28,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Vue에서 Third party library가 Transpile 되지 않을 때.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Vue에서 Third party library가 Transpile 되지 않을 때.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Vue에서 Third party library가 Transpile 되지 않을 때.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="135">
-                <caret line="167" column="37" lean-forward="true" selection-start-line="167" selection-start-column="37" selection-end-line="167" selection-end-column="37" />
+              <first_editor relative-caret-position="195">
+                <caret line="171" column="106" lean-forward="false" selection-start-line="171" selection-start-column="106" selection-end-line="171" selection-end-column="106" />
                 <folding>
                   <marker date="1571293198706" expanded="true" signature="2312:2386" ph="{&quot;outputDir&quot;: 'www'...}" />
                   <marker date="1571293198706" expanded="true" signature="2341:2362" ph="[...]" />
@@ -53,6 +53,54 @@
                   <marker date="1571293198706" expanded="true" signature="7359:7761" ph="{...}" />
                   <marker date="1571293198706" expanded="true" signature="7465:7759" ph="{...}" />
                   <marker date="1571293198706" expanded="true" signature="7541:7681" ph="{...}" />
+                </folding>
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Spring Data Mongodb with docker mongodb instance.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Spring Data Mongodb with docker mongodb instance.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="374">
+                <caret line="134" column="0" lean-forward="true" selection-start-line="134" selection-start-column="0" selection-end-line="134" selection-end-column="0" />
+                <folding>
+                  <marker date="1578633665773" expanded="true" signature="252:2693" ph="..." />
+                  <marker date="1578633665773" expanded="true" signature="399:602" ph="..." />
+                  <marker date="1578633665773" expanded="true" signature="821:871" ph="..." />
+                  <marker date="1578633665773" expanded="true" signature="888:2392" ph="..." />
+                  <marker date="1578633665773" expanded="true" signature="903:1023" ph="..." />
+                  <marker date="1578633665773" expanded="true" signature="1038:1162" ph="..." />
+                  <marker date="1578633665773" expanded="true" signature="1177:1293" ph="..." />
+                  <marker date="1578633665773" expanded="true" signature="1308:1423" ph="..." />
+                  <marker date="1578633665773" expanded="true" signature="1439:1606" ph="..." />
+                  <marker date="1578633665773" expanded="true" signature="1621:1777" ph="..." />
+                  <marker date="1578633665773" expanded="true" signature="1792:1912" ph="..." />
+                  <marker date="1578633665773" expanded="true" signature="1927:2062" ph="..." />
+                  <marker date="1578633665773" expanded="true" signature="2077:2375" ph="..." />
+                  <marker date="1578633665773" expanded="true" signature="2216:2359" ph="..." />
+                  <marker date="1578633665773" expanded="true" signature="2232:2342" ph="..." />
+                  <marker date="1578633665773" expanded="true" signature="2402:2681" ph="..." />
+                  <marker date="1578633665773" expanded="true" signature="2414:2630" ph="..." />
+                  <marker date="1578633665773" expanded="true" signature="2426:2617" ph="..." />
+                  <marker date="1578633665773" expanded="true" signature="2548:2604" ph="..." />
+                  <marker date="1578633665773" expanded="true" signature="3140:3291" ph="logging: &lt;1 key&gt;" />
+                  <marker date="1578633665773" expanded="true" signature="3151:3291" ph="level: &lt;2 keys&gt;" />
+                  <marker date="1578633665773" expanded="true" signature="3215:3220" ph="DEBUG" />
+                  <marker date="1578633665773" expanded="true" signature="3286:3291" ph="DEBUG" />
+                  <marker date="1578633665773" expanded="true" signature="3293:3528" ph="spring: &lt;2 keys&gt;" />
+                  <marker date="1578633665773" expanded="true" signature="3303:3330" ph="profiles: &lt;1 key&gt;" />
+                  <marker date="1578633665773" expanded="true" signature="3325:3330" ph="local" />
+                  <marker date="1578633665773" expanded="true" signature="3333:3528" ph="data: &lt;1 key&gt;" />
+                  <marker date="1578633665773" expanded="true" signature="3343:3528" ph="mongodb: &lt;6 keys&gt;" />
+                  <marker date="1578633665773" expanded="true" signature="3364:3373" ph="localhost" />
+                  <marker date="1578633665773" expanded="true" signature="3386:3391" ph="27017" />
+                  <marker date="1578633665773" expanded="true" signature="3408:3412" ph="test" />
+                  <marker date="1578633665773" expanded="true" signature="3444:3449" ph="admin" />
+                  <marker date="1578633665773" expanded="true" signature="3466:3470" ph="root" />
+                  <marker date="1578633665773" expanded="true" signature="3521:3528" ph="mongodb" />
                 </folding>
               </first_editor>
               <second_editor />
@@ -96,6 +144,7 @@
       <list>
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/Vue에서 Third party library가 Transpile 되지 않을 때.md" />
+        <option value="$PROJECT_DIR$/Spring Data Mongodb with docker mongodb instance.md" />
       </list>
     </option>
   </component>
@@ -129,8 +178,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -145,7 +194,7 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -270,7 +319,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1571281553707</updated>
-      <workItem from="1571281555210" duration="7358000" />
+      <workItem from="1571281555210" duration="8561000" />
+      <workItem from="1578633093734" duration="855000" />
     </task>
     <task id="LOCAL-00001" summary="Vue에서 Third party library가 Transpile 되지 않을 때">
       <created>1571291758767</created>
@@ -286,11 +336,18 @@
       <option name="project" value="LOCAL" />
       <updated>1571291828675</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Vue Modern build 관련 내용 추가">
+      <created>1571293214397</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1571293214397</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7358000" />
+    <option name="totallyTimeSpent" value="9416000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1920" y="-201" width="1920" height="1057" extended-state="6" />
@@ -302,17 +359,16 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32953367" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32953367" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22044729" sideWeight="0.5" order="10" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -320,10 +376,11 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -335,13 +392,73 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Vue에서 Third party library가 Transpile 되지 않을 때" />
     <MESSAGE value="Update index" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update index" />
+    <MESSAGE value="Vue Modern build 관련 내용 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="Vue Modern build 관련 내용 추가" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="2" lean-forward="false" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spring Boot Executable jar 설정하기.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding>
+              <marker date="1571281539000" expanded="true" signature="292:465" ph="..." />
+              <marker date="1571281539000" expanded="true" signature="405:455" ph="..." />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vue에서 Third party library가 Transpile 되지 않을 때.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="2640">
+            <caret line="176" column="18" lean-forward="false" selection-start-line="176" selection-start-column="18" selection-end-line="176" selection-end-column="18" />
+            <folding>
+              <marker date="1571293198706" expanded="true" signature="2312:2386" ph="{&quot;outputDir&quot;: 'www'...}" />
+              <marker date="1571293198706" expanded="true" signature="2341:2362" ph="[...]" />
+              <marker date="1571293198706" expanded="true" signature="3305:3521" ph="{&quot;outputDir&quot;: 'www'...}" />
+              <marker date="1571293198706" expanded="true" signature="3334:3497" ph="[...]" />
+              <marker date="1571293198706" expanded="true" signature="4601:4677" ph="{...}" />
+              <marker date="1571293198706" expanded="true" signature="4616:4675" ph="[...]" />
+              <marker date="1571293198706" expanded="true" signature="4626:4669" ph="[...]" />
+              <marker date="1571293198706" expanded="true" signature="4726:4784" ph="{...}" />
+              <marker date="1571293198706" expanded="true" signature="5855:7914" ph="..." />
+              <marker date="1571293198706" expanded="true" signature="5862:7034" ph="..." />
+              <marker date="1571293198706" expanded="true" signature="6338:6468" ph="..." />
+              <marker date="1571293198706" expanded="true" signature="7041:7906" ph="..." />
+              <marker date="1571293198706" expanded="true" signature="7052:7199" ph="..." />
+              <marker date="1571293198706" expanded="true" signature="7060:7188" ph="..." />
+              <marker date="1571293198706" expanded="true" signature="7345:7772" ph="..." />
+              <marker date="1571293198706" expanded="true" signature="7359:7761" ph="{...}" />
+              <marker date="1571293198706" expanded="true" signature="7465:7759" ph="{...}" />
+              <marker date="1571293198706" expanded="true" signature="7541:7681" ph="{...}" />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Spring Boot Executable jar 설정하기.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -370,8 +487,8 @@
     <entry file="file://$PROJECT_DIR$/Vue에서 Third party library가 Transpile 되지 않을 때.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="135">
-            <caret line="167" column="37" lean-forward="true" selection-start-line="167" selection-start-column="37" selection-end-line="167" selection-end-column="37" />
+          <first_editor relative-caret-position="195">
+            <caret line="171" column="106" lean-forward="false" selection-start-line="171" selection-start-column="106" selection-end-line="171" selection-end-column="106" />
             <folding>
               <marker date="1571293198706" expanded="true" signature="2312:2386" ph="{&quot;outputDir&quot;: 'www'...}" />
               <marker date="1571293198706" expanded="true" signature="2341:2362" ph="[...]" />
@@ -391,6 +508,52 @@
               <marker date="1571293198706" expanded="true" signature="7359:7761" ph="{...}" />
               <marker date="1571293198706" expanded="true" signature="7465:7759" ph="{...}" />
               <marker date="1571293198706" expanded="true" signature="7541:7681" ph="{...}" />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spring Data Mongodb with docker mongodb instance.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="374">
+            <caret line="134" column="0" lean-forward="true" selection-start-line="134" selection-start-column="0" selection-end-line="134" selection-end-column="0" />
+            <folding>
+              <marker date="1578633665773" expanded="true" signature="252:2693" ph="..." />
+              <marker date="1578633665773" expanded="true" signature="399:602" ph="..." />
+              <marker date="1578633665773" expanded="true" signature="821:871" ph="..." />
+              <marker date="1578633665773" expanded="true" signature="888:2392" ph="..." />
+              <marker date="1578633665773" expanded="true" signature="903:1023" ph="..." />
+              <marker date="1578633665773" expanded="true" signature="1038:1162" ph="..." />
+              <marker date="1578633665773" expanded="true" signature="1177:1293" ph="..." />
+              <marker date="1578633665773" expanded="true" signature="1308:1423" ph="..." />
+              <marker date="1578633665773" expanded="true" signature="1439:1606" ph="..." />
+              <marker date="1578633665773" expanded="true" signature="1621:1777" ph="..." />
+              <marker date="1578633665773" expanded="true" signature="1792:1912" ph="..." />
+              <marker date="1578633665773" expanded="true" signature="1927:2062" ph="..." />
+              <marker date="1578633665773" expanded="true" signature="2077:2375" ph="..." />
+              <marker date="1578633665773" expanded="true" signature="2216:2359" ph="..." />
+              <marker date="1578633665773" expanded="true" signature="2232:2342" ph="..." />
+              <marker date="1578633665773" expanded="true" signature="2402:2681" ph="..." />
+              <marker date="1578633665773" expanded="true" signature="2414:2630" ph="..." />
+              <marker date="1578633665773" expanded="true" signature="2426:2617" ph="..." />
+              <marker date="1578633665773" expanded="true" signature="2548:2604" ph="..." />
+              <marker date="1578633665773" expanded="true" signature="3140:3291" ph="logging: &lt;1 key&gt;" />
+              <marker date="1578633665773" expanded="true" signature="3151:3291" ph="level: &lt;2 keys&gt;" />
+              <marker date="1578633665773" expanded="true" signature="3215:3220" ph="DEBUG" />
+              <marker date="1578633665773" expanded="true" signature="3286:3291" ph="DEBUG" />
+              <marker date="1578633665773" expanded="true" signature="3293:3528" ph="spring: &lt;2 keys&gt;" />
+              <marker date="1578633665773" expanded="true" signature="3303:3330" ph="profiles: &lt;1 key&gt;" />
+              <marker date="1578633665773" expanded="true" signature="3325:3330" ph="local" />
+              <marker date="1578633665773" expanded="true" signature="3333:3528" ph="data: &lt;1 key&gt;" />
+              <marker date="1578633665773" expanded="true" signature="3343:3528" ph="mongodb: &lt;6 keys&gt;" />
+              <marker date="1578633665773" expanded="true" signature="3364:3373" ph="localhost" />
+              <marker date="1578633665773" expanded="true" signature="3386:3391" ph="27017" />
+              <marker date="1578633665773" expanded="true" signature="3408:3412" ph="test" />
+              <marker date="1578633665773" expanded="true" signature="3444:3449" ph="admin" />
+              <marker date="1578633665773" expanded="true" signature="3466:3470" ph="root" />
+              <marker date="1578633665773" expanded="true" signature="3521:3528" ph="mongodb" />
             </folding>
           </first_editor>
           <second_editor />
