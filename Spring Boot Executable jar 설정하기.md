@@ -44,3 +44,4 @@ sudo mkdir ~/.aws
 cd ~/.aws
 sudo touch credentials 로 생성해야 함
 
+<a href="https://docs.spring.io/spring-boot/docs/1.3.1.RELEASE/reference/html/deployment-install.html">55. Installing Spring Boot applications</a>
