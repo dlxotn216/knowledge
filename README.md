@@ -4,3 +4,4 @@
 * <a 
 href="https://github.com/dlxotn216/knowledge/blob/master/Spring%20Boot%20Embedded%20Web%20Servers%20and%20Docbase.pdf">
 Spring Boot Embedded Web Server 운용 시 docbase 관련 문제 (servletContext.getRealPath가 null일 때)</a>
+<a href="https://github.com/dlxotn216/knowledge/blob/master/Docker%EB%A1%9C%20DynamoDB%20%EC%84%A4%EC%A0%95%ED%95%98%EA%B8%B0.md">Docker로 DynamoDB 설정하기</a>
