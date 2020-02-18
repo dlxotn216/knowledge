@@ -27,7 +27,8 @@ sudo yum remove java-1.7.0-openjdk
 ```
 
 아래 명령어 실행 (app 이름이 동일해야 하는 듯)
-sudo ln -s myapp.jar /etc/init.d/myapp
+sudo ln -s /home/ec2-user/app/myapp.jar /etc/init.d/myapp
+-> 반드시 절대 경로로
 
 jar와 동일 위치에 myapp.conf로 아래와 같이 줄 수 있음
 
