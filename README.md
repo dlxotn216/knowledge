@@ -12,3 +12,6 @@ href="https://github.com/dlxotn216/knowledge/blob/master/Javamail%EB%A1%9C%20%EC
 * <a
 href="https://github.com/dlxotn216/knowledge/blob/master/UITN-Performance%2CLoadTesting-310320-1020-626.pdf">
 UITN Performance Testing</a>
+* <a
+href="https://github.com/dlxotn216/knowledge/blob/master/SafetyR3OutofmemoryTracing-310320-1024-628.pdf">
+Safety R3 OOM Tracing</a>
