@@ -16,5 +16,5 @@ UITN Performance Testing</a>
 href="https://github.com/dlxotn216/knowledge/blob/master/SafetyR3OutofmemoryTracing-310320-1024-628.pdf">
 Safety R3 OOM Tracing</a>
 * cubeCTMS 접속지연 개선  
-** <a href="https://github.com/dlxotn216/knowledge/blob/master/cubeCTMS-HighLatency%20Tracing.pdf">접속지연 원인 추적</a>  
-** <a href="https://github.com/dlxotn216/knowledge/blob/master/cubeCTMS-HighLatency%20Resolving.pdf">접속지연 개선</a>  
+  * <a href="https://github.com/dlxotn216/knowledge/blob/master/cubeCTMS-HighLatency%20Tracing.pdf">접속지연 원인 추적</a>  
+  * <a href="https://github.com/dlxotn216/knowledge/blob/master/cubeCTMS-HighLatency%20Resolving.pdf">접속지연 개선</a>  
