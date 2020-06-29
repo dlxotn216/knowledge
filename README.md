@@ -19,4 +19,5 @@ Safety R3 OOM Tracing</a>
   * <a href="https://github.com/dlxotn216/knowledge/blob/master/cubeCTMS-HighLatency%20Tracing.pdf">접속지연 원인 추적</a>  
   * <a href="https://github.com/dlxotn216/knowledge/blob/master/cubeCTMS-HighLatency%20Resolving.pdf">접속지연 개선</a>  
 * <a href="https://github.com/dlxotn216/knowledge/blob/master/cubeCTMS-CloudMigration%20Issue%20Tracking.pdf">cubeCTMS Cloud Migration Issue Tracking</a>
+* <a href="https://github.com/dlxotn216/knowledge/blob/master/Jboss%EC%97%90%EC%84%9C%20GET%2C%20POST%20%ED%8C%8C%EB%9D%BC%EB%AF%B8%ED%84%B0%20%EC%A0%84%EC%86%A1%20%EC%8B%9C%20%EA%B0%92%EC%9D%B4%20%EA%B9%A8%EC%A7%88%20%EB%95%8C.md">Jboss에서 GET, POST 파라미터 전송 시 값이 깨질 때.md</a>
 
