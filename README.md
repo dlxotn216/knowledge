@@ -22,3 +22,4 @@ Safety R3 OOM Tracing</a>
 * <a href="https://github.com/dlxotn216/knowledge/blob/master/Jboss%EC%97%90%EC%84%9C%20GET%2C%20POST%20%ED%8C%8C%EB%9D%BC%EB%AF%B8%ED%84%B0%20%EC%A0%84%EC%86%A1%20%EC%8B%9C%20%EA%B0%92%EC%9D%B4%20%EA%B9%A8%EC%A7%88%20%EB%95%8C.md">Jboss에서 GET, POST 파라미터 전송 시 값이 깨질 때.md</a>
 * <a href="https://junwoo45.github.io/2020-07-28-chrome_devtools/">시니어 프론트엔드 개발자처럼 크롬 개발자도구 사용하기</a>
 * <a href="https://github.com/dlxotn216/knowledge/blob/master/IntelliJ%EC%97%90%EC%84%9C%20Transaction%20Mode%EA%B0%80%20Manual%EC%9E%84%EC%97%90%EB%8F%84%20%EB%B6%88%EA%B5%AC%ED%95%98%EA%B3%A0%20Rollback%EC%9D%B4%20%EB%90%98%EC%A7%80%20%EC%95%8A%EB%8A%94%20%EA%B2%BD%EC%9A%B0.md">IntelliJ에서 Transaction Mode가 Manual임에도 불구하고 Rollback이 되지 않는 경우</a>
+* <a href="https://github.com/dlxotn216/kotlin-spring-junit5">Kotlink과 Hibernate 그리고 Spring Boot 2.2, 2.4 마이그레이션 관련 이슈</a>
