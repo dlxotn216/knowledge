@@ -25,9 +25,12 @@ Safety R3 OOM Tracing</a>
 * <a href="https://github.com/dlxotn216/kotlin-spring-junit5">Kotlink과 Hibernate 그리고 Spring Boot 2.2, 2.4 마이그레이션 관련 이슈</a>
 * <a href="https://github.com/dlxotn216/spring-boot-jooq">Spring JOOQ</a>
  * 정리할 것들 TODO  
+   * OAuth, SSO
+     * https://tistory.github.io/document-tistory-apis/auth/authorization_code.html
+       * 플로우에 대해 정리가 잘 된듯...
    * JUnit5, Spring Boot Test
      * https://gofnrk.tistory.com/74
-     * https://spring.io/guides/gs/testing-web/ (Testing the web layer)
+     * https://spring.io/guides/testing-web/ (Testing the web layer)
      * https://okky.kr/article/821626
      * https://velog.io/@lsb156/Spring-Boot-TestContainers
      * https://if.kakao.com/session/108
