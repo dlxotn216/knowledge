@@ -51,5 +51,5 @@ Safety R3 OOM Tracing</a>
      * CQRS: https://javacan.tistory.com/564
      * NounceL https://if.kakao.com/session/45
      * Circuit breaker: https://spring.io/guides/gs/circuit-breaker/
-     
+     * https://reflectoring.io/spring-boot-cookies/
      
