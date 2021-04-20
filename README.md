@@ -52,4 +52,5 @@ Safety R3 OOM Tracing</a>
      * NounceL https://if.kakao.com/session/45
      * Circuit breaker: https://spring.io/guides/gs/circuit-breaker/
      * https://reflectoring.io/spring-boot-cookies/
-     
+   * SQL
+     * https://jojoldu.tistory.com/529
