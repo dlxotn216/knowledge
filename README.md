@@ -54,3 +54,8 @@ Safety R3 OOM Tracing</a>
      * https://reflectoring.io/spring-boot-cookies/
    * SQL
      * https://jojoldu.tistory.com/529
+   * 분산 환경에서 실시간 서비스
+     * https://hackerwins.github.io/2019-04-16/co-editor  
+   * DEVOPS
+     * 카오스 엔지니어링의 원칙 https://principlesofchaos.org/ko/
+     * AWS GameDay https://aws.amazon.com/ko/gameday/
