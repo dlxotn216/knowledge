@@ -25,6 +25,7 @@ Safety R3 OOM Tracing</a>
 * <a href="https://github.com/dlxotn216/kotlin-spring-junit5">Kotlink과 Hibernate 그리고 Spring Boot 2.2, 2.4 마이그레이션 관련 이슈</a>
 * <a href="https://github.com/dlxotn216/knowledge/commit/34f9ab54cd67a38279b48fc8f11195491dde2674">Kotlin에서 Hibernate ID Property 매핑 방법과 PostgreSQL의 ID 컬럼의 자료형에 따른 매핑 방법 </a>
 * <a href="https://github.com/dlxotn216/spring-boot-jooq">Spring JOOQ</a>
+* <a href="https://github.com/dlxotn216/knowledge/blob/master/MariaDB%EC%97%90%EC%84%9C%20Update-Where%20Exists%20%EC%A0%88%EA%B3%BC%20Select-Where%20Exists%20%EC%A0%88%EC%9D%98%20%ED%94%8C%EB%9E%9C%EC%9D%B4%20%EB%8B%A4%EB%A5%BC%20%EB%95%8C.md">MariaDB에서 Update-Where Exists 절과 Select-Where Exists 절의 플랜이 다를 때</a>
  * 정리할 것들 TODO  
    * OAuth, SSO
      * https://tistory.github.io/document-tistory-apis/auth/authorization_code.html
