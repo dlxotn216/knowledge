@@ -9,7 +9,7 @@
 캐시를 적용한 응답이 왔으나 일정 시간 후 아래의 캐시 무효화 헤더가 붙음  
 Cache-Control: no-cache, no-store, max-age=-, must-revalidate  
 
-(1) Spring MVC 설정 확인
+### (1) Spring MVC 설정 확인
 ```xml
 <mvc:resources mapping="/resources/**" location="/resources/" />
 <mvc:resources mapping="/resources/css/**" location="/resources/css/" cache-period="21600"/>
@@ -20,9 +20,9 @@ Cache-Control: no-cache, no-store, max-age=-, must-revalidate
 ```
 스프링의 리소스 캐시 설정이 적절히 걸려 있었음  
 
-(2) 별도로 위와 같은 캐시 헤더를 추가하는 필터 등이 프로젝트내에 존재하지 않는 것을 확인 
+### (2) 별도로 위와 같은 캐시 헤더를 추가하는 필터 등이 프로젝트내에 존재하지 않는 것을 확인 
 
-(3) Spring Security에서 Default Security Headers를 추가하는 데 위에 기술 된 헤더들이 추가 됨.  
+### (3) Spring Security에서 Default Security Headers를 추가하는 데 위에 기술 된 헤더들이 추가 됨.  
 https://docs.spring.io/spring-security/site/docs/5.0.x/reference/html/headers.html 
 
 해당 설정을 비활성화 하는 방법으로 아래와 가이드를 찾고 XML에서 아래 Java config를 임포트 하도록 권장하였으나 설정이 양쪽으로 나뉘는 것이 불편하다고 하여 다른 방법 필요.  
@@ -38,7 +38,7 @@ class SpringWebSecurityConfig extends WebSecurityConfigurerAdapter {
 }
 ```
 
-(4) xml 기반의 설정을 찾고 추가 
+### (4) xml 기반의 설정을 찾고 추가 
 Security의 문제가 맞는 지 확인하기 위해 모든 캐시 관련 설정을 끄고 확인
 ```xml
 <http>
@@ -54,7 +54,7 @@ Security의 문제가 맞는 지 확인하기 위해 모든 캐시 관련 설정
 
 시간이 지나도 정상적으로 캐시가 유지되는것을 확인.  
 
-(5) 다른 프로젝트의 security 설정 비교하여 원인 파악
+### (5) 다른 프로젝트의 security 설정 비교하여 원인 파악
 다른 프로젝트는 위와 같은 설정이 없음에도 잘 동작 했기에 security 설정을 위주로 비교  
 
 아래와 같이 리소스에 대해서는 security를 none으로 설정해서 SecurityFilter를 아예 안타게 함
@@ -71,7 +71,7 @@ Security의 문제가 맞는 지 확인하기 위해 모든 캐시 관련 설정
 <security:intercept-url pattern="/resources/**" access="permitAll"/>
 ```
 
-(6) 최종 설정을 반영해서 배포 완료 및 의문점 FU
+### (6) 최종 설정을 반영해서 배포 완료 및 의문점 FU
 왜 일정시간이 지나고서야 Cache-Control: no-cache, no-store, max-age=-, must-revalidate 헤더가 응답되어 캐시가 안되었을까?  
 
 * 최초에는 CDN이 revalidate 되었으니 Origin에 접속하여 Spring MVC에서 설정한 cache-period에 의해 적절히 응답 헤더가 구성 됐을 것  
