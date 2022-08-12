@@ -26,6 +26,12 @@ Safety R3 OOM Tracing</a>
 * <a href="https://github.com/dlxotn216/knowledge/commit/34f9ab54cd67a38279b48fc8f11195491dde2674">Kotlin에서 Hibernate ID Property 매핑 방법과 PostgreSQL의 ID 컬럼의 자료형에 따른 매핑 방법 </a>
 * <a href="https://github.com/dlxotn216/spring-boot-jooq">Spring JOOQ</a>
 * <a href="https://github.com/dlxotn216/knowledge/blob/master/MariaDB%EC%97%90%EC%84%9C%20Update-Where%20Exists%20%EC%A0%88%EA%B3%BC%20Select-Where%20Exists%20%EC%A0%88%EC%9D%98%20%ED%94%8C%EB%9E%9C%EC%9D%B4%20%EB%8B%A4%EB%A5%BC%20%EB%95%8C.md">MariaDB에서 Update-Where Exists 절과 Select-Where Exists 절의 플랜이 다를 때</a>
+* <a href="https://github.com/dlxotn216/knowledge/blob/master/taesu-655020713-120822-1005-3914.pdf">Kotlin, Hibernate ID 매핑 팁과 PostgreSQL ID 컬럼 타입에 따른 매핑 방법</a>
+* <a href="https://github.com/dlxotn216/knowledge/blob/master/taesu-655028263-120822-1005-3916.pdf">Undertow IO Thread, Woker Thread 역할과 Hikari CP </a>
+* <a href="https://github.com/dlxotn216/knowledge/blob/master/Mariadb_split_materialized.md">MariaDB split_materialized 옵티마이저로 인한 쿼리 결과가 잘못 나오는 문제 해결</a>
+* <a href="https://github.com/dlxotn216/knowledge/blob/master/Spring_Security_Cache_Control.md">Spring Security로 인해 특정 시간이 지난 후 Cache 헤더가 응답되지 않는 현상 해결</a>
+* <a href="https://github.com/dlxotn216/knowledge/blob/master/taesu-614377618-120822-1005-3912.pdf">CI/CD 배포 시 일시적인 Uncaught SyntaxError: Unexpected token 예외 해결</a>
+* <a href="https://github.com/dlxotn216/knowledge/blob/master/taesu-006.MybatisLocalCache-120822-1005-3918.pdf">Mybatis Localcache로 인한 버그 해결</a>
  * 정리할 것들 TODO  
    * OAuth, SSO
      * https://tistory.github.io/document-tistory-apis/auth/authorization_code.html
